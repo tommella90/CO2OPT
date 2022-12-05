@@ -12,10 +12,11 @@ b-c) To evaluate the impact of CO2OPT other data are required: either data from 
 For c, in particular, I’d use panel information (same-truck data over time) and plot the difference in CO2 emission over time. 
 
 T3 - Write a sample code using Airflow to enable:
-    a. Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
+NOT DONE    a) Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
 
-NOT DONE
-    b. Orchestrating data analytics to enable KPI calculations for either a/b/c (only 1)
+
+b) Orchestrating data analytics to enable KPI calculations for either a/b/c (only 1)
+
 You can find the code for a) attached in the email. 
 
 T4 - Explain in 5-7 sentences, what kind of pre-processing strategies and tools have you used in order to ensure the trueness of your analytics?
