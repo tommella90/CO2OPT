@@ -1,4 +1,4 @@
-# TOMMASO RAMELLA
+# task, TOMMASO RAMELLA
 
 Hello Siddan, here are my answers to the tasks. As mentioned in the 
 mail, I decided to focus on the data analytics part. 
@@ -24,22 +24,3 @@ You can find the code for a) attached in the email.
 
 T4 - Explain in 5-7 sentences, what kind of pre-processing strategies and tools have you used in order to ensure the trueness of your analytics?
 If focused more on tasks 1, 2 and 5. The implementation of n 3 and 4 would come easy with multiple time data. For the km consumption, I calculated the distance travelled by the truck (using latitude and longitude) and put it in relation to the fuel used. With multiple time data, the result would be more precise, but the code gives an idea of the strategy used. For the comparison with other vehicles, I used a clustering method to group the vehicles. The main function at the end of the code allows to compare trucks from the same group. For the usage profile, I used random C02-consumption thresholds and divided the trucks in 3 categories. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e
-
