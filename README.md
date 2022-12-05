@@ -14,7 +14,7 @@ For c, in particular, I’d use panel information (same-truck data over time) an
 T3 - Write a sample code using Airflow to enable:
     a. Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
 
-    NOT DONE
+NOT DONE
     b. Orchestrating data analytics to enable KPI calculations for either a/b/c (only 1)
 You can find the code for a) attached in the email. 
 
