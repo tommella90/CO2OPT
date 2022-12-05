@@ -12,6 +12,7 @@ b-c) To evaluate the impact of CO2OPT other data are required: either data from 
 For c, in particular, I’d use panel information (same-truck data over time) and plot the difference in CO2 emission over time. 
 
 T3 - Write a sample code using Airflow to enable:
+
 NOT DONE    a) Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
 
 
