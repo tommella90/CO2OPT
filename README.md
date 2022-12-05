@@ -7,11 +7,13 @@ NOT DONE
 
 T2 - Which tools would you apply for a, b and c individually considering each would have individual requirements in terms of how the data is used? You are free to assume a certain constraint from your own experience and solve this question.  
 a)	It requires a continuous data flow ingestion (arguably made by Airflow) to be analyzed with pandas. I used gps-tracking systems to find the distance and I would use time-stamp information to extrapolate the number of trips (eg: how long the truck stays without moving)
+
 b-c) To evaluate the impact of CO2OPT other data are required: either data from trucks-trips before CO2OPT guidelines implementation (preferred), or from other general data regarding tracks not in CO2OPT. This would give us a ‘counterfactual’ to evaluate the difference in terms of emission. 
 For c, in particular, I’d use panel information (same-truck data over time) and plot the difference in CO2 emission over time. 
 
 T3 - Write a sample code using Airflow to enable:
     a. Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
+    NOT DONE
     b. Orchestrating data analytics to enable KPI calculations for either a/b/c (only 1)
 You can find the code for a) attached in the email. 
 
