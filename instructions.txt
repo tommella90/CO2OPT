@@ -1,0 +1,32 @@
+We have an input data which comes with the structure and sample in the attached CSV file.
+
+We would now like to establish a pipeline where data from 100k vehicles would flow in with such a structure in JSON format twice every minute.
+
+a) The product team would like to show the following KPIs out of it:
+1. Fuel consumption per km
+2. Comparison to other vehicles observed with similar driving conditions
+3. No of trips made
+4. Trips with most economical fuel consumption behaviours
+5. Usage profile of the vehicle
+
+b) The marketing team would like to show the following KPIs:
+1. Total CO2 emissions offsetted by CO2OPT
+2. Average performance increase due to our app for a vehicle in terms of CO2 efficiency
+
+c) The Biz Dev team would like to show the following KPIs:
+1. The fuel consumption decrease in the vehicle in its lifetime (Vehicle lifetime value unlocked)
+2. Total number of distances per fleet
+3. Increase of fuel efficiency per km per fleet on average over CO2OPT's usage lifetime
+4. Average trip between trips compared to other fleets over CO2OPT's usage lifetime
+
+The task is the following:
+
+T1 - What tools would you use for data engineering here in general?
+T2 - Which tools would you apply for a, b and c individually considering each would have individual requirements in terms of how the data is used?
+    You are free to assume a certain constraint from your own experience and solve this question.
+T3 - Write a sample code using Airflow to enable:
+    a. Data injestion from a sample endpoint: http://localhost:3000/random-endpoint-1 with a JSON payload into a dataware connected to Snowflake
+    b. Orchestrating data analytics to enable KPI calculations for either a/b/c (only 1)
+T4 - Explain in 5-7 sentences, what kind of pre-processing strategies and tools have you used in order to ensure the trueness of your analytics?
+For T3.b., only the structure of the code is important. Assume routines which return random numbers for each of the KPI.
+
